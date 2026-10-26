@@ -289,12 +289,19 @@ section {
 }
 
 .project-link {
-    border: #1e73be;
     border-radius: 8px;
     display: inline-block;
     text-decoration: none;
     color: #ffffff;
     padding: 8px 16px;
+    background-color: #1e73be;
+    font-weight: bold;
+    transition: backgrund-color 0.3s, color 0.3s;
+}
+
+.project-link:hover {
+    background-color: #ffffff;
+    color: #1e73be;
 }
 
 .project h3 {
