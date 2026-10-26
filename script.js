@@ -1,6 +1,6 @@
 const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
-const navItims = document.querySelector('.nav-links a');
+const navItems = document.querySelector('.nav-links a');
 
 function updateMenuState(isOpen) {
     navLinks.classList.toggle('show', isOpen);
@@ -17,7 +17,7 @@ menuToggle.addEventListener('click', (e) => {
     updateMenuState(!isOpen);
 });
 
-navItims.forEach(item)  =>  {
+navItems.forEach(item)  =>  {
     item.addEventListener('click', () => {
         updateMenuState(false);
     });
