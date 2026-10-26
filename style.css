@@ -296,12 +296,12 @@ section {
     padding: 8px 16px;
     background-color: #1e73be;
     font-weight: bold;
-    transition: backgrund-color 0.3s, color 0.3s;
+    transition: backgrund-color 0.3s, color ease;
 }
 
 .project-link:hover {
-    background-color: #ffffff;
-    color: #1e73be;
+    background-color: #0ea5e9;
+    color: #ffffff;
 }
 
 .project h3 {
@@ -348,7 +348,6 @@ footer {
     color: #63748b;
     margin: 0px;
 }
-
 @media (max-width : 768px) {
     header {
         padding: 15px 5%;
@@ -385,8 +384,8 @@ footer {
     }
 
     .nav-links a:hover {
-        color: #38bdf8; !important;
-    }}
+        color: #38bdf8; !importants;
+    }
 
     .hero {
         flex-direction: column-reverse;
@@ -416,5 +415,4 @@ transform: translateY(-10px);
         opacity: 1;
         transform: translateY(0);
     }
-}
 }
